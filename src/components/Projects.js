@@ -36,8 +36,8 @@ const Projects = () => {
                   <br/>
                   <h3 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">{project.tech}</h3>
                   <br/>
-                  <a href={project.link} className="ml-4 inline-block px-6 py-2.5 bg-green-500 text-white font-large text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out hover:text-blue">Live link</a>
-                  <a href={project.github} className="ml-4 inline-block px-6 py-2.5 bg-green-500 text-white font-large text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out hover:text-blue">Github</a>
+                  <a href={project.link} target="_blank" className="ml-4 inline-block px-6 py-2.5 bg-green-500 text-white font-large text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out hover:text-blue">Live link</a>
+                  <a href={project.github} target="_blank" className="ml-4 inline-block px-6 py-2.5 bg-green-500 text-white font-large text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out hover:text-blue">Github</a>
                   
                 </div>
               </div>

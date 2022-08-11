@@ -10,7 +10,7 @@ function Homepage () {
   
   return (
       <>
-      <div className="px-4 py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 w-full mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2 justify-center">
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
           <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
@@ -42,9 +42,11 @@ function Homepage () {
             <p className="text-base text-gray-300 md:text-lg">
               This portfolio was created to give a glimpse of my life and my journey to becoming my family's first ever software engineer.
               
-              Feel free to connect or reach out on LinkedIn, Github or via email!
+              Feel free to connect or reach out via LinkedIn, Github or email!
             </p>
             <br/>
+            <p>links below:</p>
+            {/* <br/> */}
             <div>
               
             <a href='https://www.linkedin.com/in/caesar-solano-lagunas/' class="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
@@ -66,15 +68,15 @@ function Homepage () {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center -mx-4 lg:pl-8">
-          <div className="flex flex-col items-end px-4">
+        <div className="flex items-center justify-center mx-auto lg:pl-8">
+          <div className="flex flex-col items-end px-8">
             <img
-              className="border-2 border-red-300 object-cover object-left mb-8 rounded shadow-lg h-28 sm:h-68 sm:w-68 md:h-68 xl:h-56 w-28 sm:w-48 xl:w-56"
+              className="border-2 border-red-300 object-cover object-left mb-8 rounded shadow-lg w-40 h-28 sm:h-68 sm:w-68 md:h-68 xl:h-56 w-28 sm:w-48 xl:w-56"
               src={logan}
               alt="image1"
             />
             <img
-              className="border-2 border-red-300 object-cover w-30 h-20 rounded shadow-lg sm:h-40 xl:h-40 sm:w-32 xl:w-40"
+              className="border-2 border-red-300 object-cover w-30 h-20 rounded shadow-lg sm:h-60 xl:h-40 sm:w-62 xl:w-40"
               src={heights}
               alt="image2"
             />
@@ -98,7 +100,7 @@ function Homepage () {
       <div className='flex justify-around'>
         <div className='grid grid-cols-5 gap-5 justify-center'>
           {skills.map((skill) => (
-            <span className="flex items-center justify-center ">{skill}</span>
+            <span className=" min-w-0 flex text-gray-300 items-center justify-center ">{skill}</span>
             ))}
         </div>
       </div>

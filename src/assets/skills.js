@@ -6,15 +6,16 @@ export const skills = [
     `CSS`,
     `Node.js`,
     `Express.js`,
-    `MongoDB`,
     `MySQL`,
     `PostgreSQL`,
+    `Git`,
+    `Github`,
+    `MongoDB`,
     `Bootstrap`,
     `Django`,
-    `Github`,
     `Postman`,
-    `Microsoft 365`,
     `Google`,
+    `Microsoft 365`,
     `Tailwind`
     
 ]

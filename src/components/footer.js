@@ -43,7 +43,7 @@ function Footer() {
     {/* </div> */}
 
   <div class="text-center p-4" >
-    © cesarsolano007@gmail.com 2022
+    © Inqueries: cesarsolano007@gmail.com
   </div>
   {/* </div> */}
 </footer>

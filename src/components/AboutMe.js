@@ -1,5 +1,5 @@
 import React from 'react';
-import sunset from '../images/sunset.JPG'
+import sunset from '../images/sunset2.JPG'
 import hiking from '../images/hiking.jpg'
 import outcast from "../images/outcast.jpg"
 import { brandStatement } from '../assets/brand-statement';
@@ -52,9 +52,10 @@ const AboutMe = () => {
               I am a product of my environment
             </h6>
             <p className="text-sm text-gray-300">
-              Growing up I was taught very early that one must fight in order to get what they want. 
+              Growing up I was taught very early that one must endure anything life throws at you. 
               Watching both my parents getting up early to prepare for another restless day to provide for their family. 
-              I now carry this gene of working til I get what I want. 
+              I was faced with a variety of different situations growing up.
+              A combination of these taught me to grow and embrace these experiences. 
             </p>
           </div>
           <div>
@@ -64,7 +65,8 @@ const AboutMe = () => {
             <p className="text-sm text-gray-300">
               Growing up I always loved being outdoors and in nature.
               I love going on hikes, it is a great way for myself to get self care.
-              Catch me chasing sunsets!
+              Nature has taught me that there are successes and failures to every path. 
+              I love my path!
             </p>
           </div>
         </div>

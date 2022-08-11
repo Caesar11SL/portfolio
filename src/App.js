@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <div className="text-gray-400 bg-gray-900 body-font">
-    {/* <MouseParticles g={1} color="random" cull="col,image-wrapper"/> */}
+    <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
     <Router>
     <NavBar />
       <Routes>

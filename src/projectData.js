@@ -10,7 +10,7 @@ export const projects = [
       description:
         "Health social media application with ability to share posts or recipes with users on the site. Incorporated an API, allowing users to search a list of foods with calorie infomation. ",
       image: health2,
-      link: "#",
+      link: "https://healthappproject.netlify.app/",
       tech: [
         "Reactjs,",
         " Javascript,",

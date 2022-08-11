@@ -1,6 +1,15 @@
-/* * {
-  background-color: blue;
+.nav-container {
+  background-color: darkolivegreen;
+  color: white;
+  display: flex;
+
+
 }
-.App {
-  color: ;
-} */
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+.link1, .link2, .link3 {
+  text-decoration: none;
+  color: white;
+}

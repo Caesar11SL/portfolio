@@ -17,9 +17,9 @@ function Homepage () {
           </div>
           <div className="max-w-xl mb-7">
             <h2 className="mb-6 text-3xl font-bold text-white sm:text-4xl sm:leading-none">
-            ¡Bienvenidos amigos!
-            <br/>
              Welcome friends!
+            <br/>
+            ¡Bienvenidos amigos!
             </h2>
               <p className='text-sm text-white font-bold'>My name is </p>
             <h2 className='text-4xl font-bold text-green-600'>
@@ -40,7 +40,7 @@ function Homepage () {
                 <br/>
 
             <p className="text-base text-gray-300 md:text-lg">
-              This portfolio was created to give a glimpse of my life and my journey to becoming my family's first ever software engineer.
+              This portfolio was created to give a glimpse of my life and my journey to becoming a software engineer.
               
               Feel free to connect or reach out via LinkedIn, Github or email!
             </p>
